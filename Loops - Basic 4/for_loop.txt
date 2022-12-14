@@ -1,0 +1,29 @@
+/*
+To repeatedly do some task until a certain condition is met, we can use loops! 
+For example, let's consider how to sum the numbers 1,2,3 and 4 in a loop:
+
+First we start with 1 and add this to a sum. 
+Then we move to 2, add this to sum... and so on until we reach 4.
+
+Each time we add to the sum is an iteration. 
+We iterate until we reach our exit condition when the value is greater than 4.
+
+SYNTAX:
+for ([initialization]; [condition]; [update]) {
+    statement;
+}
+
+- The Initialization is run once at the beginning of the loop. 
+Create a variable in this expression and initialize the starting value.
+
+- The Condition is checked before each iteration. 
+If the expression evaluates to true, the statement will run. 
+If it is false the statement will not run.
+
+- he Update is run at the end of each iteration. 
+It can update a variable for the next execution of the statement. 
+Typically this will increment or decrement some running counter like i in this case.
+
+- Finally, the Statement is run as long as the Condition is true. 
+This is where the real work of the loop gets done. 
+*/

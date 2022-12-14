@@ -1,0 +1,26 @@
+// Modulus Scream
+/* 
+Return a scream alternating between lower and capital case. 
+
+For example:
+console.log( scream(5) ); // aAaAa
+console.log( scream(10) ); // aAaAaAaAaA
+
+TIP:
+Use modulo operator to check for postions and then add the A or a appropriately using decesion blocks (if else)
+*/
+
+function scream(n) {
+  let string = "";
+
+  for (let i = 1; i <= n; i++) {
+    if (i % 2 == 0) {
+      string += "A";
+    } else {
+      string += "a";
+    }
+  }
+  return string;
+}
+a = scream(5);
+console.log(a); //aAaAaA
